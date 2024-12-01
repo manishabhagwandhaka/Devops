@@ -28,9 +28,11 @@
       community.aws.elb_application_lb:
         name: AplicationLoadBalancer
         security_groups:
-          - launch-wizard-2
+          - launch-wizard-1
         subnets:
           - subnet-0b5ecf46f252f0e67
+          - subnet-03286513962c68c4d
+          - subnet-08d49dc941b4c0215
         listeners:
           - Protocol: HTTP # Required. The protocol for connections from clients to the load balancer (HTTP or HTTPS) (case-sensitive).
             Port: 80 # Required. The port on which the load balancer is listening.
