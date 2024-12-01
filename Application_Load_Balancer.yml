@@ -10,6 +10,7 @@
         protocol: http
         port: 81
         vpc_id: vpc-02fcfa3a51c9ffe89
+        region: us-east-1
         health_check_protocol: http
         health_check_path: /
         successful_response_codes: "200,250-260"
