@@ -1,5 +1,5 @@
----
-- name: Create AWS Target Group and Register EC2 Instances
+- 
+  name: Create AWS Target Group and Register EC2 Instances
   hosts: localhost
   connection: local
   #hosts: servers
