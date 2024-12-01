@@ -29,6 +29,7 @@
         name: AplicationLoadBalancer
         security_groups:
           - launch-wizard-1
+        region: us-east-1  
         subnets:
           - subnet-0b5ecf46f252f0e67
           - subnet-03286513962c68c4d
